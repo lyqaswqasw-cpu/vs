@@ -1,0 +1,73 @@
+{
+  "rules": {
+    ".read": true,
+    "app_config": {
+      ".read": true,
+      ".write": "newData.child('developer_password').val() == '2008' || root.child('app_config/developer_password').val() == '2008'"
+    },
+    "channels": {
+      ".read": true,
+      "$channelId": {
+        ".write": "newData.child('appVersion').val() == '3.0.1' || (data.exists() && !newData.exists() && root.child('app_config/developer_password').val() == '2008')"
+      }
+    },
+    "channel_categories": {
+      ".read": true,
+      ".write": "root.child('app_config/developer_password').val() == '2008'"
+    },
+    "channel_branches": {
+      ".read": true,
+      ".write": "root.child('app_config/developer_password').val() == '2008'"
+    },
+    "xtreme_accounts": {
+      ".read": true,
+      ".write": "root.child('app_config/developer_password').val() == '2008'"
+    },
+    "event_banners": {
+      ".read": true,
+      "$bannerId": {
+        ".write": "newData.child('appVersion').val() == '3.0.1' || (data.exists() && !newData.exists() && root.child('app_config/developer_password').val() == '2008')"
+      }
+    },
+    "events": {
+      ".read": true,
+      ".write": "root.child('app_config/developer_password').val() == '2008'"
+    },
+    "foul_tv": {
+      "videos": {
+        ".read": true,
+        "$videoId": {
+          ".write": "newData.child('appVersion').val() == '3.0.1' || (data.exists() && !newData.exists() && root.child('app_config/developer_password').val() == '2008')"
+        }
+      },
+      "comments": {
+        ".read": true,
+        ".write": true
+      },
+      "config": {
+        ".read": true,
+        ".write": "root.child('app_config/developer_password').val() == '2008'"
+      }
+    },
+    "channel_chat_messages": {
+      ".read": true,
+      ".write": true
+    },
+    "chat_messages": {
+      ".read": true,
+      ".write": true
+    },
+    "chat_users": {
+      ".read": true,
+      ".write": true
+    },
+    "channel_presence": {
+      ".read": true,
+      ".write": true
+    },
+    "global_app_presence": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

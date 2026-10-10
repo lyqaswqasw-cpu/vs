@@ -1,0 +1,8 @@
+{
+  "name": "Foul",
+  "description": "تطبيق بث مباريات ورياضة فاخر مع مشغل متقدم ودعم القنوات ومكتبة سينمائية وقاعدة بيانات سحابية",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

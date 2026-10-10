@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "49568448612",
+    "firebase_url": "https://loop-848d6-default-rtdb.firebaseio.com",
+    "project_id": "loop-848d6",
+    "storage_bucket": "loop-848d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49568448612:android:a0990ab5427bd066981f71",
+        "android_client_info": {
+          "package_name": "com.msnn.h"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8LQ7Thjdn5w17ZUCMsAxw-ZtZgFKZIVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
